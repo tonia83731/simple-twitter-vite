@@ -21,7 +21,13 @@ export default {
           90: "#44444F",
           100: "#171725",
         },
-
+        input: "#F5F8FA",
+        "input-border": "#657786",
+      },
+      screens: {
+        // 'mobile': '991px',
+        tablet: "992px",
+        desktop: "1200px",
       },
     },
   },

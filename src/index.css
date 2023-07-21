@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+textarea:focus, input:focus{
+    outline: none;
+}
 
+.like-icon svg, .reply-icon svg{
+  width: 16px;
+  height: 16px;
+}
 
 
 /* :root {
